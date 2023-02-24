@@ -22,7 +22,7 @@ Note: It doesn't have to be styled pretty!
 
 ### Step 3
 
-Add support for the [Cypress](https://github.com/cypress-io/cypress) integration test framework to the app.
+Add support for the [Cypress](https://github.com/cypress-io/cypress) integration test framework to the project.
 
 ### Step 4
 
