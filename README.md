@@ -26,4 +26,4 @@ Add support for the [Cypress](https://github.com/cypress-io/cypress) integration
 
 ### Step 4
 
-Add an integration test that fills out the form.
+Add an end-to-end integration test that fills out and submits the form.
