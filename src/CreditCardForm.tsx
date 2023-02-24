@@ -1,14 +1,20 @@
 const CreditCardForm = () => {
   return (
-    <form>
-      <label>Card number</label>
-      <input type="text" placeholder="1234 1234 1234 1234"></input>
+    <form className="credit-card">
+      <div>
+        <label>Card number</label>
+        <input id="card_number" name="card_number" type="text" placeholder="1234 1234 1234 1234"></input>
+      </div>
 
-      <label>Expiration date</label>      
-      <input type="text" placeholder="MM / YY"></input>
+      <div>
+        <label>Expiration date</label>
+        <input id="expiration_date" name="expiration_date" type="text" placeholder="MM / YY"></input>
+      </div>
 
-      <label>CVC</label>      
-      <input type="text" placeholder="CVC"></input>
+      <div>
+        <label>cvc</label>
+        <input id="cvc" name ="cvc" type="text" placeholder="cvc"></input>
+      </div>
 
       <button type="submit">Pay</button>
     </form>
