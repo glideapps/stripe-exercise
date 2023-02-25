@@ -1,6 +1,6 @@
 const CreditCardForm = () => {
   return (
-    <form className="credit-card">
+    <form className="credit-card" action="https://api.stripe.com/v1/subscriptions" method="post">
       <div>
         <label>Card number</label>
         <input id="card_number" name="card_number" type="text" placeholder="1234 1234 1234 1234"></input>
